@@ -1,0 +1,4 @@
+[submodule "wireguard-go"]
+	path = wireguard-go
+	url = https://github.com/zhsj/wireguard-go
+	branch = go1.21

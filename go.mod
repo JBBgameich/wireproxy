@@ -2,6 +2,8 @@ module github.com/octeep/wireproxy
 
 go 1.18
 
+replace golang.zx2c4.com/wireguard => ./wireguard-go
+
 require (
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
 	github.com/akamensky/argparse v1.3.1
@@ -19,5 +21,5 @@ require (
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
-	gvisor.dev/gvisor v0.0.0-20221203005347-703fd9b7fbc0 // indirect
+	gvisor.dev/gvisor v0.0.0-20230806223740-1b6e502fedca // indirect
 )
